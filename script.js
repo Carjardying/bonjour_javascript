@@ -1,12 +1,12 @@
-function sayHello(firstName, hour){``
+function sayHello(firstName, hour){
     let message = "Bonjour";
     message = `Bonjour ${firstName} !`;
     if (hour >= 18 ) {
      message = `Bonsoir ${firstName} !`
      }
-     console.log(message);
+     document.querySelector('h1').innerText = message;
  
  }
  
- sayHello("Beyonce", 18);
- sayHello("Marine", 12);
+ sayHello("Beyonce", 12);
+ sayHello("Marine", 19);
