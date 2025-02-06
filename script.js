@@ -1,10 +1,12 @@
-function sayHello() {
-  let message = "Bonjour !";
-  let firstName = "Beyonce";
-  message = `Bonjour ${firstName} !`;
-  console.log(message);
-  return message;
-}
-//let result = sayHello() /*à voir pourquoi le messsage console x2*/
-sayHello();
-// trouver moyen de faire plus petit et plus simple
+function sayHello(firstName, hour){``
+    let message = "Bonjour";
+    message = `Bonjour ${firstName} !`;
+    if (hour >= 18 ) {
+     message = `Bonsoir ${firstName} !`
+     }
+     console.log(message);
+ 
+ }
+ 
+ sayHello("Beyonce", 18);
+ sayHello("Marine", 12);
